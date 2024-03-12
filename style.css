@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #C6F7E4;
+    font-family: 'Georgia', serif;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: dimgrey;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+.logo{
+    color:aliceblue;
+    font-size: 150%; 
+    text-decoration: none;
+}
+.menu-touggle {
+    padding: 0.2em;
+    font-size: 130%;
+    color: white;
+    background-color: aliceblue;
+    display: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+button {
+        appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+section{
+    display: block;
+}
+.nav-links a {
+    padding: 0.2em;
+    font-size: 130%;
+    color:aliceblue;
+    text-decoration: none;
+}
+header {
+    color: black;
+    padding: 80px 10px 25px 10px;
+    text-align: center;
+    display: block;
+}
+header b {
+    font-size: 2rem;
+    font-style:inherit;
+}
+#bio {
+    padding: 5px 20px 10px 20px;
+}
+.resume section, #bio {
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+    font-size: 25px;
+}
+h2 {
+    font-family: 'Georgia', serif;
+    font-weight: 500;
+    display: block;
+    font-size: 1.3em;
+}
+p {
+    font-weight: normal;
+    font-size: 26.5px;
+}
+footer {
+    background-color: dimgrey;
+    padding: 30px;
+}
